@@ -1,4 +1,4 @@
-市民通app端
+app
 ================
 
 git clone git@github.com:March666/smt-app.git
