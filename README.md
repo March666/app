@@ -1,21 +1,17 @@
-市民通项目PC端
+市民通app端
 ================
 
-git clone git@10.11.112.66:ZHANGXIFENG377/smt-pc.git
+git clone git@github.com:March666/smt-app.git
 
 启动项目
--
-* pc端
+
 npm run start
-* 移动端
-npm run start_mobile
+
 
 编译项目
--
-* pc端
+
 npm run build
-* 移动端
-npm run build_desktop
+
 
 项目结构
 -----------------
@@ -35,11 +31,4 @@ npm run build_desktop
   |-----gitignore
   
   |-----package.json
-  
-移动端与PC端说明
------------
-1. 项目入口文件与html主页分别加入了desktop/mobile文件名后缀
-2. 移动端专用样式，模块，组件增加一级mobile文件路径
-  
-##项目规范
   
