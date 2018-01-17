@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="format-detection"  content="telephone=yes">
+    <meta  http-equiv="x-rim-auto-match" content="none">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <% for (var css in htmlWebpackPlugin.files.css) { %>
+    <link href="<%=htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+    <% } %>
+    <style lang="" src="./assets/css/index.less"></style>
+  </head>
+<body>
+  <div id="root"></div>
+  <div id="modal-root"></div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.2/es6-shim.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.2/es6-sham.min.js"></script>
+<script type="text/javascript">
+  (function(root, factory){
+    var PubSub = {};
+    root.PubSub = PubSub;
+    factory(PubSub);
+  })((typeof(window)==='object' && window) || this, function(PubSub){
+    var messages = {}, lastUid = -1;
+
+    PubSub.subscribe = function(message, func){
+      if (typeof(func)!=='function') return false;
+
+      if (!messages.hasOwnProperty(message)) {
+        messages[message] = {};
+      }
+
+      var token = 'uid_' + String(++lastUid);
+      messages[message][token] = func;
+
+      return token;
+    }
+
+    PubSub.publish = function(message, data){
+      var subscribers = messages[message]
+      for (var key in subscribers) {
+        if (subscribers.hasOwnProperty(key)) {
+          subscribers[key](data);
+        }
+      }
+    }
+
+    PubSub.unsubscribe = function(token){
+      var message;
+      for (var m in messages) {
+        if (messages.hasOwnProperty(m)) {
+          message = m;
+          message[value] && delete message[value]
+        }
+      }
+    }
+  })
+</script>
+<script>
+  window.onbeforeunload = function(){
+      var audioList = document.getElementsByTagName("audio");
+      var videoList = document.getElementsByTagName("video");
+
+      if(audioList.length >0){
+        for(var i =0 ; i < audioList.length;i++){
+          audioList[i].pause();
+        }
+      }
+      if(videoList.length >0){
+        for(var i =0 ; i < videoList.length;i++){
+          videoList[i].pause();
+        }
+      }
+    }
+    window.onpopstate = function(event) {
+      PubSub.publish('BEFOREPOPSTATE', event.state);
+    };
+</script>
+<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+  <script type="text/javascript" src="<%=htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+<% } %>
+</html>

@@ -1,0 +1,180 @@
+/********
+**样式重置**
+********/
+html, body {
+  font-family: 'PingFangSC-Regular;', 'Microsoft Yahei', sans-serif, Arial, 'Simsun' !important;
+  margin: 0;
+  font-size: 16px;
+
+}
+
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td, p, sup, sub {
+  margin: 0;
+  padding: 0
+}
+
+ol, ul, li {
+  list-style: none
+}
+
+img {
+  vertical-align: top;
+  border: none;
+}
+
+* html body {
+  background-attachment: fixed;
+}
+
+body {
+  width: auto;
+  height: 100%;
+  min-height: 100%;
+  color: #666;
+  background-color: #f2f6f8;
+}
+
+body, input, textarea {
+  font: 12px/1.5 "Microsoft Yahei", arial, 'Simsun';
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0;
+}
+
+button:focus, input:focus, textarea:focus, select:focus {
+  outline-width: 0;
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.c {
+  zoom: 1
+}
+
+input, select {
+  font-family: 'Microsoft Yahei', sans-serif, Arial, 'Simsun' !important
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+em, i {
+  font-style: normal;
+}
+
+span, i, em {
+  display: inline-block;
+}
+
+textarea {
+  resize: none
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+#id {
+  min-height: 100%;
+}
+
+// tabs 修饰线缩小为50%
+.am-tabs-default-bar-underline{
+  transform: scaleX(0.5);
+}
+// 手风琴arrow 大小
+.am-accordion-header i{
+  top: 18px !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+.in-enter {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  z-index: 10000;
+  opacity: 1;
+  transform: translate3d(100%,0 ,1px);
+}
+
+.in-enter.in-enter-active {
+  transform: translate3d(0, 0, 1px);
+  transition: all 250ms linear;
+}
+
+.in-leave {
+  transform: translate3d(0, 0 ,1px);
+}
+
+.in-leave.in-leave-active {
+  transform: translate3d(-100%, 0 ,1px);
+  transition: all 250ms linear;
+}
+
+.out-enter {
+  transform: translate3d(-100%, 0, 1px);
+}
+
+.out-enter.out-enter-active {
+  transform: translate3d(0, 0 , 1px);
+  transition: all 250ms linear;
+}
+
+.out-leave {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  z-index: 10000;
+  opacity: 1;
+  transform: translate3d(0, 0 ,1px);
+}
+
+.out-leave.out-leave-active {
+  opacity: 1;
+  transform: translate3d(-100%, 0 , 1px);
+  transition: all 250ms linear;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.clear{
+  content: '';
+  display: block;
+  clear: both;
+}

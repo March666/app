@@ -1,0 +1,29 @@
+{
+  "title":"出入境",
+  "data":[
+    {"title":"深圳市企业、经营单位申办港澳商务签注登记备案","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90004400100754268901440300"},
+    {"title":"申请赴港澳地区逗留签注","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005800100754268901440300"},
+    {"title":"外国人停留证件签发","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005200100754268901440300"},
+    {"title":"华侨回国定居入户","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90002301000754268914440300"},
+    {"title":"申请赴港澳地区其他签注","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005800300754268906440300"},
+    {"title":"因私往来台湾地区通行证审批","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005800700754268903440300"},
+    {"title":"申请赴港澳地区探亲签注","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005800500754268901440300"},
+    {"title":"因私出国护照审批","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005700100754268903440300"},
+    {"title":"申请赴港澳地区商务签注","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005800400754268901440300"},
+    {"title":"申请赴港澳地区个人旅游及团队旅游签注","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005800200754268906440300"},
+    {"title":"外国人居留证件签发","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90005100100754268901440300"},
+    {"title":"外国人在中国永久居留审核","enbleOnNet":"否","url":""},
+    {"title":"台湾居民来我省定居审核","enbleOnNet":"否","url":""},
+    {"title":"内地居民申请前往香港或者澳门定居","enbleOnNet":"否","url":""},
+    {"title":"外籍婴儿办理出生登记","enbleOnNet":"否","url":""},
+    {"title":"澳门居民在内地超龄子女前往澳门定居申请","enbleOnNet":"否","url":""},
+    {"title":"枪支（弹药）携运许可","enbleOnNet":"否","url":""},
+    {"title":"国外出生儿童申请《办理户口通知》","enbleOnNet":"否","url":""},
+    {"title":"《注销户口通知》签发","enbleOnNet":"否","url":""},
+    {"title":"申请香港迪斯尼定点团队旅游签注","enbleOnNet":"否","url":""},
+    {"title":"出入境通行证签发","enbleOnNet":"否","url":""},
+    {"title":"加入、恢复、退出中国国籍申请审核","enbleOnNet":"否","url":""},
+    {"title":"外国人护照报失证明","enbleOnNet":"否","url":""},
+    {"title":"国内居民与港澳台居民生育子女申请《办理户口通知》","enbleOnNet":"否","url":""}
+  ]
+}

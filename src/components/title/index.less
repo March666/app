@@ -1,0 +1,25 @@
+@import "../../assets/css/varible";
+.comp-list-title{
+  position: relative;
+  padding-left: .25rem;
+  font-size: 16px;
+  color: #2E332F;
+  &::before{
+    content: '';
+    position: absolute;
+    left: -0.25rem;
+    top: .975rem;
+    height: .81rem;
+    width: .25rem;
+    background: @themeColor;
+    border-radius: 1px;
+    z-index: 999;
+  }
+}
+
+.comp-list-title.disabled{
+  color: @contentColor;
+  &::before{
+    background: @borderColor;
+  }
+}

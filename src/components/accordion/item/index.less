@@ -1,0 +1,30 @@
+@import "../../../assets/css/varible.less";
+.comp-ac-item{
+  margin: .39rem 0;
+}
+.comp-ac-item.disabled{
+  color: @contentColor
+}
+.anygate,.employment-market{
+  // 去除多余样式
+  .am-accordion{
+    &:before{
+      display: none !important;
+    }
+  }
+  .am-accordion-header[aria-expanded=false]{
+    &:after{
+      display: none !important;
+    }
+  }
+  .am-accordion-content-box{
+    &:after{
+      display: none !important;
+    }
+  }
+  .am-list-body{
+    &:after{
+      display: none !important;
+    }
+  }
+}

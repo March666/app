@@ -1,0 +1,23 @@
+{
+  "title":"司法公证",
+  "data":[
+    {"title":"对司法鉴定人专业技术职称评聘材料核实","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90003400100754174X13440300"},
+    {"title":"司法鉴定人执业登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400300754174X13440300"},
+    {"title":"司法鉴定人专业技术职称变更登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400200754174X03440300"},
+    {"title":"司法鉴定人注销登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400400754174X13440300"},
+    {"title":"司法鉴定人执业机构变更登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400100754174X03440300"},
+    {"title":"司法鉴定人延续登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400500754174X13440300"},
+    {"title":"申请设立律师事务所及律师事务所设立分所","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000100500754174X12440300"},
+    {"title":"法律援助","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=70000100100754174X16440300"},
+    {"title":"法律援助办案补贴审核支付","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90001600100754174X16440300"},
+    {"title":"因申请终止法律援助","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90003200100754174X16440300"},
+    {"title":"申请律师执业证书","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000200200754174X12440300"},
+    {"title":"律师执业证补发（换发）申请","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90002700200754174X12440300"},
+    {"title":"律师执业证注销申请","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90002700300754174X13440300"},
+    {"title":"律师执业类别变更申请","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90002700100754174X12440300"},
+    {"title":"对律师转所申请材料的审查报送","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90001400100754174X17440300"},
+    {"title":"接收并报送法律职业资格证遗失补发或损毁换发申请","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90002000100754174X13440300"},
+    {"title":"戒毒人员的亲属、所在单位或就读学校的工作人员来所探访批准","enableOnNet":"否","url":""},
+    {"title":"接收自愿接受强制隔离戒毒的吸毒成瘾人员","enableOnNet":"否","url":""}
+  ]
+}

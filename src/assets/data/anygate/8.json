@@ -1,0 +1,11 @@
+{
+  "title":"社会救助",
+  "data":[
+    {"title":"一次性困难救助","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=70000100400754268913440300"},
+    {"title":"垫付抢救费用","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=70000100200754268913440300"},
+    {"title":"基金会设立登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00001400200754219513440300"},
+    {"title":"民办非企业单位成立登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00002600200754219516440300"},
+    {"title":"城市生活无着流浪乞讨人员救助管理","enableOnNet":"否","url":""},
+    {"title":"伤残人员等级评定审核","enableOnNet":"否","url":""}
+  ]
+}

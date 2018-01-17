@@ -1,0 +1,15 @@
+{
+  "title":"人才就业",
+  "data":[
+    {"title":"《深圳市出租小汽车驾驶准许证》驾驶车辆变更","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90000300569395137713440300"},
+    {"title":"司法鉴定人执业登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400300754174X13440300"},
+    {"title":"司法鉴定人专业技术职称变更登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400200754174X03440300"},
+    {"title":"司法鉴定人注销登记","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00000400400754174X13440300"},
+    {"title":"特种设备作业人员考核","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=00002700169253616313440300"},
+    {"title":"核准大中专毕业生初次认定专业技术资格","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90002600169558324816440300"},
+    {"title":"补发、换发深圳市制发的各类专业技术资格证书（经全国统考取得证书除外）","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=90001200169558324813440300"},
+    {"title":"深圳市出国留学人员资格审定","enableOnNet":"是","url":"http://szgov.uoson.com/WSBS/Info?code=60001800169558324813440300"},
+    {"title":"保安员资格证核发","enableOnNet":"否","url":"http://wsbs.sz.gov.cn/shenzhen/project/guide?code=00002001800754268913440300"},
+    {"title":"创业导师补贴","enableOnNet":"否","url":"http://wsbs.sz.gov.cn/shenzhen/project/guide?code=70004200169558324813440300"}
+  ]
+}
